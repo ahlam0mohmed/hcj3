@@ -1,0 +1,203 @@
+header{
+    display: block;
+    margin-bottom: 50px;
+    
+    
+}
+.htop{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.htop ul{
+    list-style: none;
+    justify-content: space-around;
+}
+.htop ul li{
+    float: left;
+    border-right: 1px solid black;
+    margin: 5px;
+}
+.htop  #bor{
+    border-right: none;
+}
+.hcen{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    
+}
+.hcen .shop {
+display: flex;
+flex-wrap: wrap;
+}
+.hcen .list {
+    display: flex;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 30%;
+    justify-content: space-between;
+    justify-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 7px;
+    
+    
+
+}
+.hcen .list ul{
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 7px;
+    
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.hcen .list ul li{
+    border: 1px solid black;
+    border-radius:30%;
+    margin-right: 20px;
+    float: left;
+    padding: 5px;
+}
+.hcen .list .li-ser{
+    text-align: end;
+    border: none;
+    margin-left: 200px;
+}
+.hcen .logo{
+    display: flex;
+}
+.lin{
+    justify-content: space-evenly;
+    justify-items: right;
+    align-items: center;
+    margin-right: 50px;
+}
+.lin ul{
+    list-style: none;
+    
+    justify-content: space-around;
+}
+.lin ul li{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    float: right;
+    margin-right: 30px;
+}
+.lin #all{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 2px solid rgb(9, 9, 14);
+}
+.lin #l1{
+    border-bottom: 2px solid blue;
+}
+.lin #l2{
+    border-bottom: 2px solid orange;
+}
+.lin #l3{
+    border-bottom: 2px solid orangered;
+}
+.lin #l4{
+    border-bottom: 2px solid rgb(18, 12, 54);
+}
+.lin #l5{
+    border-bottom: 2px solid red;
+}
+.lin #l6{
+    border-bottom: 2px solid darkgreen;
+}
+.imgs{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+.imgs img{
+    width: 95vw;
+    
+}
+/* footer*/
+.fot-main{
+    background-color: rgb(20, 17, 17);
+    color: rgb(97, 90, 90);
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+}
+.fot-main a{
+    color: rgb(59, 54, 54);
+
+}
+.fot-main .df{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.fot-main .df .fom{
+    background-color: rgb(82, 71, 71);
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.fom #te{
+    display: block;
+}
+.fot-main  ul{
+    list-style: none;
+}
+.df ul li{
+    margin-bottom: 15px;
+}
+footer h4{
+    border-bottom: 1px solid rgb(73, 67, 67);
+    display: block;
+    text-align: center;
+}
+.df .do ul{
+    list-style: none;
+}
+.df .do .ic {
+    list-style: none;
+}
+.df .do .ic  li{
+    float: left;
+    margin: 2px;
+}
+.do ul li img{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.fot-last{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:20px ;
+}
+.dot-last .db{
+    display: flex;
+}
+.fot-last .db ul{
+    list-style: none;
+}
+.fot-last .db ul li{
+    float: right;
+    margin: 2px;
+}
+.fot-last .db .ab{
+    border-left: 1px solid black;
+}

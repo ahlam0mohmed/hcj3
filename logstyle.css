@@ -1,0 +1,60 @@
+.logall{
+    margin-bottom: 20px;
+}
+h1{
+    float: right;
+}
+.login{
+    width: 100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    height: 80vh;
+}
+label{
+    display: block;
+}
+.login .logr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-items: center;
+    justify-content: center;
+}
+.login .formlog{
+    justify-content: center;
+    height: 2000px;
+}
+.login form{
+    width: 100%;
+}
+.login form input{
+    display: block;
+    width: 80%;
+    margin:20px ;
+}
+.login h3{
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.login .logl{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    justify-items: center;
+    justify-content: center;
+
+}
+.logl .formcreat{
+    height: 2000px;
+    
+}
+.login #fcreat{
+    display: none;
+}
+#log{
+    border-left: 2px solid black;
+}
