@@ -1,37 +1,41 @@
-var fcr = document.getElementById('fcreat');
-var lo =document.getElementById('log');
-var cr =document.getElementById('creat');
+
 var Mimg= document.getElementById('modleimg');
-var nex =document.getElementById('but')
+var pre= document.getElementById('but_pre');
+var nex =document.getElementById('but_nex')
 var imgs =document.querySelectorAll(".img1");
 
-cr.addEventListener('click',function(){
 
-    fcr.style.display="flex";
-    
-});
-lo.addEventListener('click',function(){
-
-    fcr.style.display="none";
-    
-});
 
 
 var ind=0;
 var sr;
+alert(imgs.length)
     nex.addEventListener('click',function(){
         ind++;
         sr = imgs[ind];
         
         if(ind>=imgs.length-1){
-            ind=0;
+            ind=-1;
+            //sr = imgs[ind];
         }
+        
         Mimg.src= sr.src;
         
         
-    })
+    });
 
-
+    pre.addEventListener('click',function(){
+        
+        if(ind<=0){
+            ind=imgs.length;
+        }
+        ind--;
+        sr = imgs[ind];
+        
+        Mimg.src= sr.src;
+        
+        
+    });
 
 
 

@@ -13,14 +13,15 @@
     <header>
         <div class="htop">
             <ul>
-                <li><a href="login.html">أدخل لحسابك أو سجل دخول</a></li>
-                <li><a href="#">المفضلة</a></li>
-                <li><a href="#">تتبع الشحنة</a></li>
-                <li><a href="#">طلبيات الصيانة</a></li>
-                <li><a href="#"> المساعدة</a></li>
-                <li><a href="#">فروعنا</a></li>
+                <li><a href="#">English</a></li>
                 <li><a href="#"> المملكة العربية السعودية</a></li>
-                <li><a id="bor" href="#">English</a></li>
+                <li><a href="#">فروعنا</a></li>
+                <li><a href="#"> المساعدة</a></li>
+                <li><a href="#">طلبيات الصيانة</a></li>
+                <li><a href="#">تتبع الشحنة</a></li>
+                <li><a href="#">المفضلة</a></li>
+                <li id="bor"><a href="login.html">أدخل لحسابك أو سجل دخول</a></li>
+                
             </ul>
         </div>
         <div class="dfe">
@@ -75,7 +76,7 @@
 
 
     <div class="logall">
-        <h1>تسجسل الدخول أو إنشاء حساب</h1>
+        <h1>تسجيل الدخول أو إنشاء حساب</h1>
 
 
         <div class="login">
@@ -90,7 +91,7 @@
                             <option selected>+970</option>
                         </select>
                         <label>سوف نرسل لك رمز التحقق عن طريق رسالة نصية</label>
-                        <input type="submit" value="إرسال رقم التحقق">
+                        <input style="text-align: center;" type="submit" value="إرسال رقم التحقق">
                         <input type="text" placeholder="الأسم الأول">
                         <input type="text" placeholder="اسم العائلة">
                         <input type="text" placeholder="البريد الالكتروني">
@@ -106,11 +107,13 @@
             <div class="logr">
                 <h3 id="log" > <a href="#"> تسجيل الدخول </a></h3>
                 <div class="formlog">
+                    <div id="flog">
                     <form>
-                        <input type="text" placeholder="Email Address or Mobile Number">
-                        <input type="password" placeholder="password">
-                        <input style="background-color: red;" type="submit" value="LogIn">
+                        <input type="text" placeholder="الإيميل أو رقم الجوال">
+                        <input type="password" placeholder="كلمة السر">
+                        <input style="background-color: red; text-align: center;" type="submit" value="LogIn">
                     </form>
+                </div>
                 </div>
             </div>
         </div>
@@ -228,6 +231,6 @@
     </footer>
 
 
-    <script src="in.js"></script>
+    <script src="login.js"></script>
 </body>
 </html>

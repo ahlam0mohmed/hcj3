@@ -1,17 +1,11 @@
 .logall{
     margin-bottom: 20px;
+
 }
 h1{
     float: right;
 }
-.login{
-    width: 100vw;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    display: flex;
-    text-align: center;
-    height: 80vh;
-}
+
 label{
     display: block;
 }
@@ -28,11 +22,22 @@ label{
 }
 .login form{
     width: 100%;
+    
 }
 .login form input{
     display: block;
     width: 80%;
     margin:20px ;
+    text-align: right;
+    height: 30px;
+}
+.login{
+    width: 100vw;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    height: 80vh;
 }
 .login h3{
     display: block;

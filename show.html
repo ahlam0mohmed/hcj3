@@ -6,13 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1{
+        body{
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
             text-align: center;
+
         }
         label{
             margin: 10px;
             color: red;
-            text-align: center;
+            font-size: 30px;
+            
         }
         button{
             width: 100px;
@@ -21,10 +26,15 @@
             color: silver;
             background-color: tomato;
             margin: 20px;
+            align-items: center;
+        }
+        .imgshow{
+            align-items: center;
+            margin-top: 10px;
         }
     </style>
 </head>
-<body style="margin-left: 300px;">
+<body >
     <div class="show">
         <h1> خصم %50 </h1>
         <h1>باقي من العرض</h1>
@@ -37,19 +47,20 @@
 
         </div>
 
-        <div style="justify-items: center; align-items: center; margin: 50px;">
+        <div style="display: none;">
             <img class="img1" src="img/b1.webp" width="70" height="70">
             <img class="img1" src="img/b2.webp" width="70" height="70">
             <img class="img1" src="img/b3.webp" width="70" height="70">
 
         </div>
         <div class="imgshow">
+            <button id="but_pre">السابق</button>
             <img id="modleimg" src="img/b1.webp" width="500" height="500">
-            <button id="but">التالي</button>
+            <button id="but_nex">التالي</button>
         </div>
     </div>
 
 
-    <script src="in.js"></script>
+    <script src="show.js"></script>
 </body>
 </html>
